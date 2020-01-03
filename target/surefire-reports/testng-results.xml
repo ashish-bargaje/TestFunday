@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="42786" started-at="2020-01-03T06:27:20Z" finished-at="2020-01-03T06:28:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="42786" started-at="2020-01-03T06:27:20Z" finished-at="2020-01-03T06:28:03Z">
+      <class name="com.testfunday.app.RegistrationPageTest">
+        <test-method status="PASS" signature="validateRegistrationPage()[pri:0, instance:com.testfunday.app.RegistrationPageTest@7f690630]" name="validateRegistrationPage" duration-ms="307" started-at="2020-01-03T11:57:53Z" finished-at="2020-01-03T11:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationPage -->
+        <test-method status="PASS" signature="createSuccessfulAccount()[pri:0, instance:com.testfunday.app.RegistrationPageTest@7f690630]" name="createSuccessfulAccount" duration-ms="7587" started-at="2020-01-03T11:57:54Z" finished-at="2020-01-03T11:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSuccessfulAccount -->
+      </class> <!-- com.testfunday.app.RegistrationPageTest -->
+      <class name="com.testfunday.app.HomePageTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.testfunday.app.HomePageTest@57829d67]" name="start" is-config="true" duration-ms="9906" started-at="2020-01-03T11:57:20Z" finished-at="2020-01-03T11:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.testfunday.app.RegistrationPageTest@7f690630]" name="start" is-config="true" duration-ms="14678" started-at="2020-01-03T11:57:30Z" finished-at="2020-01-03T11:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.testfunday.app.HomePageTest@57829d67]" name="homePageNavigation" duration-ms="8971" started-at="2020-01-03T11:57:44Z" finished-at="2020-01-03T11:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testfunday.app.HomePageTest@57829d67]" name="end" is-config="true" duration-ms="654" started-at="2020-01-03T11:58:01Z" finished-at="2020-01-03T11:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testfunday.app.RegistrationPageTest@7f690630]" name="end" is-config="true" duration-ms="679" started-at="2020-01-03T11:58:02Z" finished-at="2020-01-03T11:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.testfunday.app.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
