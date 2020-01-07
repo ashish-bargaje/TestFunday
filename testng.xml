@@ -3,10 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+   	  <class name="com.testfunday.app.HomePageTest"/>
       <class name="com.testfunday.app.RegistrationPageTest"/>
-      <class name="com.testfunday.app.AppTest"/>
-      <class name="com.testfunday.app.HomePageTest"/>
-      <class name="com.testfunday.resources.Base"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
